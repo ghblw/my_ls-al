@@ -54,6 +54,7 @@ void inf(char *file) {
         printf("%c",*p);
         p++;
     }
+    printf(" ");
     if(mod[0] == 'd') {
         //蓝色加粗
         printf("\033[1;34m%s\033[0m\n",file);
